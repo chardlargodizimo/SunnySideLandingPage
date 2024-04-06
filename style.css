@@ -264,13 +264,15 @@ textarea:not([rows]) {
     --gap: 3rem;
     height: 100vh;
     height: 100dvh;
-    background-color: var(--clr-primary-100);
     background-image: url(./images/mobile/image-header.jpg);
     background-size: cover;
     background-position: center bottom;
     text-align: center;
-    padding-block: clamp(10rem, 9.2077rem + 3.3803vi, 12.25rem);
 }
+
+.banner__content {
+    padding-block: clamp(10rem, 9.2077rem + 3.3803vi, 12.25rem);
+}   
 
 .banner__heading {
     color: var(--clr-neutral-100);
