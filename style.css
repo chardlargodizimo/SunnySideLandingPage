@@ -392,7 +392,7 @@ textarea:not([rows]) {
 .btn {
     --_btn-highlight: var(--btn-highlight, var(--clr-neutral-500));
     --flow-space: 2rem;
-    display: inline-block;
+    display: inline-grid;
     color: var(--_clr-btn);
     font-family: var(--_ff-title);
     font-weight: var(--fw-900);
