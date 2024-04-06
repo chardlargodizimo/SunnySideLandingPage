@@ -263,7 +263,7 @@ textarea:not([rows]) {
 .banner {
     --gap: 3rem;
     height: 100vh;
-    height: 100dvh;
+    height: 100svh;
     background-image: url(./images/mobile/image-header.jpg);
     background-size: cover;
     background-position: center bottom;
