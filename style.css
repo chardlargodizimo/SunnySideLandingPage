@@ -271,7 +271,7 @@ textarea:not([rows]) {
 }
 
 .banner__content {
-    padding-block: clamp(10rem, 9.2077rem + 3.3803vi, 12.25rem);
+    padding-block-start: clamp(10rem, 9.2077rem + 3.3803vi, 12.25rem);
 }   
 
 .banner__heading {
